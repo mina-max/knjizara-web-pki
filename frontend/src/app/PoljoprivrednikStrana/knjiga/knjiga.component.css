@@ -1,0 +1,177 @@
+
+html, body{
+  background: url('../../../assets/loginbooooook-overlay.png');
+  background-size: cover;
+    background-blend-mode: darken;
+    background-attachment: scroll;
+    font-family: 'Open Sans Condensed', sans-serif;
+    vertical-align: center;      
+    overflow: auto;
+    }
+
+    
+
+
+    .card-header {
+      height:40px;
+      font-family: 'Open Sans Condensed', sans-serif;
+      font-size: 14px;
+      text-align: left;
+      }
+
+    .card{
+      background-color: rgba(240, 215, 197, 0.858);
+     /* // height: 380px; */
+      /* width: 240px; */
+      margin-left: 80px;
+      color: black;
+      text-align: justify;
+      
+    }
+    
+    .card-footer {
+      font-size: 16px;
+      height: 80px;
+      font-weight: 500;
+    }
+    
+    .slika-knjige {
+      height: 340px;
+      align-content: center;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    #title{
+      font-size: 30px;
+      font-style: oblique;
+    }
+    
+    .container{
+    height: 70%;
+    align-content: center;
+    
+    }
+    
+    #n {
+      font-family: 'Open Sans Condensed', sans-serif;
+    }
+    
+    
+    
+    .form-control {
+        background-color: #9fd2ce
+    }
+    
+  
+    
+    #txt {
+      position: relative;
+      top:65%;
+    }
+    
+    
+    
+    .login_btn{
+    
+    color: white;
+    background-color: rgb(62, 36, 18);
+    width: 100px;
+    height: 70px;
+    margin-top: 15px;
+    border:0px;
+      }
+    
+    .login_btn:hover{
+    color: black;
+    background-color: rgb(250, 218, 208);
+    }
+    
+ 
+    
+    .links{
+    color: black;
+    
+    }
+    .row{
+
+    color: white;
+        text-align: center;
+    
+    }
+    
+    .links a{
+    margin-left: 4px;
+    }
+    
+    #link{
+      color: #167277;
+      font-weight: 500;
+    }
+
+    .home{
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-weight: 500;
+        font-size: 35px;
+        color: white;
+        text-align: left;
+        margin-top: 15px;
+    }
+
+.myheader{
+  font-size: 30px;
+  text-align: center;
+  
+}
+
+.col-sm-6{
+  text-align: left;
+}
+
+#k{
+    background-color: rgba(10, 22, 20, 0.842);
+    color: white;
+    width: 300px;
+    height: 400px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.ime{
+    font-size: 30px;
+}
+#h{
+    
+    background-image: url('../../../assets/kom2.jpg');
+    background-size: cover;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 600;
+    height: auto;
+    color: white
+}
+#l{
+    float:right;
+    width:150px;
+    height:40px;
+    margin-top: 0;
+}
+
+#knjiga{
+  float:center;
+  width:150px;
+  height:40px;
+  margin-left: 80px;
+}
+
+.korpa{
+  width: 70px;
+  margin-top: 10px;
+  background-color: rgb(113, 168, 102);
+  border: 0;
+}
+.korpa:hover{
+  background-color: rgb(23, 49, 34);
+}

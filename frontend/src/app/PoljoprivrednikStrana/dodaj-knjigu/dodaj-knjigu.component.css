@@ -1,0 +1,84 @@
+input[type=radio] {
+    display: none;
+  }
+  
+  input#thing1[type=radio]+label {
+    background-image: url("../../../assets/what.jpg");
+    border-color: white;
+    border-style: solid;
+    background-size: 100%;
+    height: 80px;
+    width: 50px;
+    display: inline-block;
+    padding: 0 0 0 0px;
+  }
+  
+  input#thing2[type=radio]+label {
+    background-image: url("../../../assets/flea.jpg");
+    border-color: white;
+    border-style: solid;
+    background-size: 100%;
+    height: 80px;
+    width: 50px;
+    display: inline-block;
+    padding: 0 0 0 0px;
+  }
+  
+  input#thing3[type=radio]+label {
+    background-image: url("../../../assets/good.jpg");
+    border-color: white;
+    border-style: solid;
+    background-size: 100%;
+    height: 80px;
+    width: 50px;
+    display: inline-block;
+    padding: 0 0 0 0px;
+  }
+  
+  input#thing4[type=radio]+label {
+    background-image: url("../../../assets/sin.jpg");
+    border-color: white;
+    border-style: solid;
+    background-size: 100%;
+    height: 80px;
+    width: 50px;
+    display: inline-block;
+    padding: 0 0 0 0px;
+  }
+  
+  input#thing1[type=radio]:checked+label {
+    border-color: red;
+    border-style: solid;
+    height: 80px;
+    width: 50px;
+    display: inline-block;
+    padding: 0 0 0 0px;
+  }
+  
+  input#thing2[type=radio]:checked+label {
+    border-color: red;
+    border-style: solid;
+    height: 80px;
+    width: 50px;
+    display: inline-block;
+    padding: 0 0 0 0px;
+  }
+  
+  input#thing3[type=radio]:checked+label {
+    border-color: red;
+    border-style: solid;
+    height: 80px;
+    width: 50px;
+    display: inline-block;
+    padding: 0 0 0 0px;
+  }
+  
+  input#thing4[type=radio]:checked+label {
+    border-color: red;
+    border-style: solid;
+    height: 80px;
+    width: 50px;
+    display: inline-block;
+    padding: 0 0 0 0px;
+  }
+  

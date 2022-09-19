@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <button mat-mini-fab style="float: right;" [mat-dialog-close]=false>X</button>
+    <form [formGroup]='fg' (ngSubmit)=posalji()>
+        <mat-form-field>
+            <textarea required type=text matInput formControlName="username" name=username style="resize: none; width:330px; height:30px" placeholder="Korisnicko ime" maxlength="400"></textarea>
+        </mat-form-field>
+        <br>
+        <button type=submit mat-raised-button >Preporuci</button>
+    </form>
+</body>
+
+</html>

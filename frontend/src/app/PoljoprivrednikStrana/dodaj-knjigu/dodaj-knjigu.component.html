@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <button mat-mini-fab style="float: right;" [mat-dialog-close]=false>X</button>
+    
+    <form [formGroup]='fg' (ngSubmit)=dodaj()>
+            <input type="radio" name='slika' formControlName="slika" value="../../../assets/flea.jpg" id="thing2"/><label for="thing2"></label> 
+            <input type="radio" name='slika' formControlName="slika" value="../../../assets/good.jpg" id="thing3"/><label for="thing3"></label>
+            <input type="radio" name='slika' formControlName="slika" value="../../../assets/sin.jpg" id="thing4"/><label for="thing4"></label> 
+        <mat-form-field>
+            <input required type=text matInput formControlName="naslov" name=naslov placeholder="Naslov">
+        </mat-form-field>
+        <mat-form-field>
+            <input required type=text matInput formControlName="autor" name=autor placeholder="Autor">
+        </mat-form-field>
+        <mat-form-field>
+            <textarea required type=text matInput formControlName="opis" name=opis style="resize: none; width:400px; height:100px" placeholder="Opis" maxlength="400"></textarea>
+        </mat-form-field>
+        <mat-form-field>
+            <input required type=number matInput formControlName="godinaIzdanja" name=godina_izdanja placeholder="Godina izdanja">
+        </mat-form-field>
+        <mat-form-field>
+            <input required type=number matInput formControlName="brojStrana" name=broj_strana placeholder="Broj strana">
+        </mat-form-field>
+        <br>
+        <button type=submit mat-raised-button >Dodaj knjigu</button>
+    </form>
+</body>
+
+</html>

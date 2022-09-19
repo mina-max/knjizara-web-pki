@@ -1,0 +1,196 @@
+
+
+html,body{
+  background: url('../../../assets/loginbooooook-overlay.png');
+  background-blend-mode: darken;
+    background-size: 100% 100%;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    background-repeat: repeat;
+    height: 120%;
+    font-family: 'Open Sans Condensed', sans-serif;
+    vertical-align: center;
+    }
+    
+    
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    #title{
+      font-size: 30px;
+      font-style: oblique;
+    }
+    
+    .container{
+    height: 70%;
+    align-content: center;
+    
+    }
+    
+    #n {
+      font-family: 'Open Sans Condensed', sans-serif;
+    }
+ 
+    .row{
+      
+      color: white;
+      text-align: center;
+      padding:10px;
+    }
+    .form-control {
+        background-color: #9fd2ce
+    }
+    
+   
+    
+    #txt {
+      position: relative;
+      top:65%;
+    }
+    
+    
+    .input-group-prepend span{
+    width: 50px;
+    background-color:rgb(216, 216, 216);
+    color: black;
+    border:0 !important;
+    }
+    
+    input:focus{
+    outline: 0 0 0 0  !important;
+    box-shadow: 0 0 0 0 !important;
+    
+    }
+    
+    
+    .login_btn{
+        font-size: 16px;
+    
+    color: black;
+    background-color: #eddfcc;
+    width: 60px;
+    height: 30px;
+    margin-bottom: 5px;
+    margin-right: 3px;
+    border: 0px;
+    }
+
+    
+    .login_btn1{
+        font-size: 16px;
+    
+    color: black;
+    background-color: #f7dac2;
+    width: 60px;
+    height: 30px;
+    border: 0px;
+    
+    }
+
+    .card:hover{
+      background-color: rgba(45, 25, 12, 0.922);
+      color: white;
+    }
+
+    .filter{
+      font-size: 18px;
+      margin-left: 15px;
+      color: black;
+    background-color: #f7dac2;
+      
+    }
+    
+    .filter:hover{
+      background-color: rgba(52, 29, 15, 0.902);
+      color: white;
+    }
+    
+    .login_btn:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(39, 21, 12);
+    }
+
+    .login_btn1:hover{
+        color: black;
+        background-color: rgb(37, 25, 11);
+    }
+
+    .card_header {
+      width: 80px;
+    }
+
+    .card{
+      background-color: rgb(245, 216, 180);
+      height: 250px;
+      width: 140px;
+      margin-left: 20px;
+      color: black;
+    }
+    
+    .card-footer {
+      font-size: 16px;
+      height: 80px;
+      font-weight: 500;
+    }
+
+    .slika-knjige {
+      height: 140px;
+      align-content: center;
+    }
+    
+    .links{
+    color: black;
+    
+    }
+    
+    
+    
+    .links a{
+    margin-left: 4px;
+    }
+    
+    #link{
+      color: #167277;
+      font-weight: 500;
+    }
+
+    .home{
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-weight: 500;
+        font-size: 40px;
+        color: white;
+        text-align: center;
+        margin-top: 15px;
+        margin-bottom: 20px;
+      
+    }
+
+    .table{
+        background-color: #32373d;
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .myheader{
+        font-size: 30px;
+        text-align: center;
+        
+    }
+
+    
+    .table th {
+      background-color: rgb(51, 80, 51);
+      border-bottom: solid rgb(29, 29, 29) 2px;
+      font-size: 15px;
+    }
+
+    .table td {
+      
+      
+  border-bottom: solid rgb(29, 29, 29) 1px;
+
+    }
